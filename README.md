@@ -1,0 +1,2 @@
+# comp-lib
+component library
