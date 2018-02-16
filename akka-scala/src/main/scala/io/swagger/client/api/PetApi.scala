@@ -22,7 +22,7 @@ object PetApi {
    * 
    * @param body Pet object that needs to be added to the store
    */
-  def addPet(body: Option[Pet] = None): ApiRequest[Unit] =
+  def addPet(body: Pet): ApiRequest[Unit] =
     ApiRequest[Unit](ApiMethods.POST, "https://dev-virtserver.swaggerhub.com/rk6-org/mnbvcxz/1.0.0", "/pet", "application/json")
       .withBody(body)
       .withErrorResponse[Unit](405)
