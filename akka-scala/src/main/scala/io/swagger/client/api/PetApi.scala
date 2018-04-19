@@ -23,7 +23,7 @@ object PetApi {
    * @param body Pet object that needs to be added to the store
    */
   def addPet(body: Pet): ApiRequest[Unit] =
-    ApiRequest[Unit](ApiMethods.POST, "https://dev-virtserver.swaggerhub.com/rk6-org/mnbvcxz/1.0.0", "/pet", "application/json")
+    ApiRequest[Unit](ApiMethods.POST, "https://dev-virtserver.swaggerhub.com/orgname-3/test-org-3/1.0.0", "/pet", "application/json")
       .withBody(body)
       .withErrorResponse[Unit](405)
         /**
@@ -37,7 +37,7 @@ object PetApi {
    * @param apiKey 
    */
   def deletePet(petId: Long, apiKey: Option[String] = None): ApiRequest[Unit] =
-    ApiRequest[Unit](ApiMethods.DELETE, "https://dev-virtserver.swaggerhub.com/rk6-org/mnbvcxz/1.0.0", "/pet/{petId}", "application/json")
+    ApiRequest[Unit](ApiMethods.DELETE, "https://dev-virtserver.swaggerhub.com/orgname-3/test-org-3/1.0.0", "/pet/{petId}", "application/json")
       .withPathParam("petId", petId)
       .withHeaderParam("api_key", apiKey)
       .withErrorResponse[Unit](400)
@@ -52,7 +52,7 @@ object PetApi {
    * @param status Status values that need to be considered for filter
    */
   def findPetsByStatus(status: Seq[String]): ApiRequest[Seq[Pet]] =
-    ApiRequest[Seq[Pet]](ApiMethods.GET, "https://dev-virtserver.swaggerhub.com/rk6-org/mnbvcxz/1.0.0", "/pet/findByStatus", "application/json")
+    ApiRequest[Seq[Pet]](ApiMethods.GET, "https://dev-virtserver.swaggerhub.com/orgname-3/test-org-3/1.0.0", "/pet/findByStatus", "application/json")
       .withQueryParam("status", ArrayValues(status, MULTI))
       .withSuccessResponse[Seq[Pet]](200)
       .withErrorResponse[Unit](400)
@@ -66,7 +66,7 @@ object PetApi {
    * @param tags Tags to filter by
    */
   def findPetsByTags(tags: Seq[String]): ApiRequest[Seq[Pet]] =
-    ApiRequest[Seq[Pet]](ApiMethods.GET, "https://dev-virtserver.swaggerhub.com/rk6-org/mnbvcxz/1.0.0", "/pet/findByTags", "application/json")
+    ApiRequest[Seq[Pet]](ApiMethods.GET, "https://dev-virtserver.swaggerhub.com/orgname-3/test-org-3/1.0.0", "/pet/findByTags", "application/json")
       .withQueryParam("tags", ArrayValues(tags, MULTI))
       .withSuccessResponse[Seq[Pet]](200)
       .withErrorResponse[Unit](400)
@@ -84,7 +84,7 @@ object PetApi {
    * @param petId ID of pet to return
    */
   def getPetById(petId: Long)(implicit apiKey: ApiKeyValue): ApiRequest[Pet] =
-    ApiRequest[Pet](ApiMethods.GET, "https://dev-virtserver.swaggerhub.com/rk6-org/mnbvcxz/1.0.0", "/pet/{petId}", "application/json")
+    ApiRequest[Pet](ApiMethods.GET, "https://dev-virtserver.swaggerhub.com/orgname-3/test-org-3/1.0.0", "/pet/{petId}", "application/json")
       .withApiKey(apiKey, "api_key", HEADER)
       .withPathParam("petId", petId)
       .withSuccessResponse[Pet](200)
@@ -101,7 +101,7 @@ object PetApi {
    * @param body Pet object that needs to be added to the store
    */
   def updatePet(body: Pet): ApiRequest[Unit] =
-    ApiRequest[Unit](ApiMethods.PUT, "https://dev-virtserver.swaggerhub.com/rk6-org/mnbvcxz/1.0.0", "/pet", "application/json")
+    ApiRequest[Unit](ApiMethods.PUT, "https://dev-virtserver.swaggerhub.com/orgname-3/test-org-3/1.0.0", "/pet", "application/json")
       .withBody(body)
       .withErrorResponse[Unit](400)
       .withErrorResponse[Unit](404)
@@ -117,7 +117,7 @@ object PetApi {
    * @param status Updated status of the pet
    */
   def updatePetWithForm(petId: Long, name: Option[String] = None, status: Option[String] = None): ApiRequest[Unit] =
-    ApiRequest[Unit](ApiMethods.POST, "https://dev-virtserver.swaggerhub.com/rk6-org/mnbvcxz/1.0.0", "/pet/{petId}", "application/x-www-form-urlencoded")
+    ApiRequest[Unit](ApiMethods.POST, "https://dev-virtserver.swaggerhub.com/orgname-3/test-org-3/1.0.0", "/pet/{petId}", "application/x-www-form-urlencoded")
       .withFormParam("name", name)
       .withFormParam("status", status)
       .withPathParam("petId", petId)
@@ -133,7 +133,7 @@ object PetApi {
    * @param file file to upload
    */
   def uploadFile(petId: Long, additionalMetadata: Option[String] = None, file: Option[File] = None): ApiRequest[ApiResponse] =
-    ApiRequest[ApiResponse](ApiMethods.POST, "https://dev-virtserver.swaggerhub.com/rk6-org/mnbvcxz/1.0.0", "/pet/{petId}/uploadImage", "multipart/form-data")
+    ApiRequest[ApiResponse](ApiMethods.POST, "https://dev-virtserver.swaggerhub.com/orgname-3/test-org-3/1.0.0", "/pet/{petId}/uploadImage", "multipart/form-data")
       .withFormParam("additionalMetadata", additionalMetadata)
       .withFormParam("file", file)
       .withPathParam("petId", petId)
