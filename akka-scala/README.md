@@ -2,7 +2,7 @@
 
 Swagger Petstore
 
-This is a sample Petstore server.  You can find  out more about Swagger at  [http://swagger.io](http://swagger.io) or on  [irc.freenode.net, #swagger](http://swagger.io/irc/). 
+This is a sample Petstore server.  You can   out more about Swagger at  [http://swagger.io](http://swagger.io) or on  [irc.freenode.net, #swagger](http://swagger.io/irc/). 
 
 # VERSION
 
@@ -61,7 +61,7 @@ libraryDependencies += "io.swagger" % "swagger-client" % "1.0.0"
 
 ## Documentation for API Endpoints
 
-All URIs are relative to *https://dev-virtserver.swaggerhub.com/TestRK666/priv-at/1.0.0*
+All URIs are relative to *https://dev-virtserver.swaggerhub.com/webpack-org-renamed/api-1-priv/1.0.0*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
