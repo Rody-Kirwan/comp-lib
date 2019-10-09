@@ -1,6 +1,6 @@
 /**
  * Swagger Petstore hjkfg
- * This is a sampledjkkkkkkkkjjjjjhjjjjjjjjjjjjjjjjjjjjjjj Petstore server.  You can find  out more about Swagger at  [http://swagger.io](http://swagger.io) or on  [irc.freenode.net, #swagger](http://swagger.io/irc/). 
+ * This is a sampledjkkkkkkkkjjjjjhjjjjjjjjjjjjjjjjjjjjjjj Petstore se out more about Swagger at  [http://swagger.io](http://swagger.io) or on  [irc.freenode.net, #swagger](http://swagger.io/irc/). 
  *
  * OpenAPI spec version: 1.0.0
  * Contact: apiteam@swagger.io
@@ -40,6 +40,18 @@ object UserApi {
    */
   def createUsersWithArrayInput(body: Seq[User]): ApiRequest[Unit] =
     ApiRequest[Unit](ApiMethods.POST, "https://dev-virtserver.swaggerhub.com/DeltaDental/test-client-sdk/1.0.0", "/user/createWithArray", "application/json")
+      .withBody(body)
+      .withDefaultSuccessResponse[Unit]
+        /**
+   * 
+   * 
+   * Expected answers:
+   *   code 0 :  (successful operation)
+   * 
+   * @param body List of user object
+   */
+  def createUsersWithListInput(body: Seq[User]): ApiRequest[Unit] =
+    ApiRequest[Unit](ApiMethods.POST, "https://dev-virtserver.swaggerhub.com/DeltaDental/test-client-sdk/1.0.0", "/user/createWithList", "application/json")
       .withBody(body)
       .withDefaultSuccessResponse[Unit]
         /**

@@ -1,6 +1,6 @@
 /**
  * Swagger Petstore hjkfg
- * This is a sampledjkkkkkkkkjjjjjhjjjjjjjjjjjjjjjjjjjjjjj Petstore server.  You can find  out more about Swagger at  [http://swagger.io](http://swagger.io) or on  [irc.freenode.net, #swagger](http://swagger.io/irc/). 
+ * This is a sampledjkkkkkkkkjjjjjhjjjjjjjjjjjjjjjjjjjjjjj Petstore se out more about Swagger at  [http://swagger.io](http://swagger.io) or on  [irc.freenode.net, #swagger](http://swagger.io/irc/). 
  *
  * OpenAPI spec version: 1.0.0
  * Contact: apiteam@swagger.io
