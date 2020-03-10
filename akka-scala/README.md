@@ -1,7 +1,7 @@
 # swagger-client
 
 Swagger Petstore
-- API version: 1.2
+- API version: 1.4
 
 This is a sample Petstore server.  You can find  out more about Swagger at  [http://swagger.io](http://swagger.io) or on  [irc.freenode.net, #swagger](http://swagger.io/irc/). 
 
