@@ -1,5 +1,5 @@
 /*
- * Simple Inventory API
+ * Simple
  *
  * This is a simple API
  *
@@ -36,7 +36,7 @@ namespace IO.Swagger.Controllers
         /// <response code="400">invalid input, object invalid</response>
         /// <response code="409">an existing item already exists</response>
         [HttpPost]
-        [Route("/TestRK111/111_api/1.0.0/inventory")]
+        [Route("/RK_101_Transfer/111_api/1.0.0/inventory")]
         [ValidateModelState]
         [SwaggerOperation("AddInventory")]
         public virtual IActionResult AddInventory([FromBody]InventoryItem body)

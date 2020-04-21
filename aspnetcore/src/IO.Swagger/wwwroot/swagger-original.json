@@ -1,7 +1,7 @@
 {
   "openapi" : "3.0.0",
   "info" : {
-    "title" : "Simple Inventory API",
+    "title" : "Simple",
     "description" : "This is a simple API",
     "contact" : {
       "email" : "you@your-company.com"
@@ -13,6 +13,9 @@
     "version" : "1.0.0"
   },
   "servers" : [ {
+    "url" : "https://dev-virtserver.swaggerhub.com/RK_101_Transfer/111_api/1.0.0",
+    "description" : "API Auto Mocking"
+  }, {
     "url" : "https://dev-virtserver.swaggerhub.com/TestRK111/111_api/1.0.0",
     "description" : "SwaggerHub API Auto Mocking"
   } ],

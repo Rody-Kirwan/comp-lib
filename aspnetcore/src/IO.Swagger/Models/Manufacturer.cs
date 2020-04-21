@@ -1,5 +1,5 @@
 /*
- * Simple Inventory API
+ * Simple
  *
  * This is a simple API
  *

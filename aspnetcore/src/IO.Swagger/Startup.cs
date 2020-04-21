@@ -1,5 +1,5 @@
 /*
- * Simple Inventory API
+ * Simple
  *
  * This is a simple API
  *
@@ -70,8 +70,8 @@ namespace IO.Swagger
                     c.SwaggerDoc("1.0.0", new Info
                     {
                         Version = "1.0.0",
-                        Title = "Simple Inventory API",
-                        Description = "Simple Inventory API (ASP.NET Core 2.0)",
+                        Title = "Simple",
+                        Description = "Simple (ASP.NET Core 2.0)",
                         Contact = new Contact()
                         {
                            Name = "Swagger Codegen Contributors",
@@ -84,7 +84,7 @@ namespace IO.Swagger
                     c.DescribeAllEnumsAsStrings();
                     c.IncludeXmlComments($"{AppContext.BaseDirectory}{Path.DirectorySeparatorChar}{_hostingEnv.ApplicationName}.xml");
                     // Sets the basePath property in the Swagger document generated
-                    c.DocumentFilter<BasePathFilter>("/TestRK111/111_api/1.0.0");
+                    c.DocumentFilter<BasePathFilter>("/RK_101_Transfer/111_api/1.0.0");
 
                     // Include DataAnnotation attributes on Controller Action parameters as Swagger validation rules (e.g required, pattern, ..)
                     // Use [ValidateModelState] on Actions to actually validate it in C# as well!
@@ -108,10 +108,10 @@ namespace IO.Swagger
                 .UseSwaggerUI(c =>
                 {
                     //TODO: Either use the SwaggerGen generated Swagger contract (generated from C# classes)
-                    c.SwaggerEndpoint("/swagger/1.0.0/swagger.json", "Simple Inventory API");
+                    c.SwaggerEndpoint("/swagger/1.0.0/swagger.json", "Simple");
 
                     //TODO: Or alternatively use the original Swagger contract that's included in the static files
-                    // c.SwaggerEndpoint("/swagger-original.json", "Simple Inventory API Original");
+                    // c.SwaggerEndpoint("/swagger-original.json", "Simple Original");
                 });
 
             if (env.IsDevelopment())

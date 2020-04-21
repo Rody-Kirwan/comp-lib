@@ -1,5 +1,5 @@
 /*
- * Simple Inventory API
+ * Simple
  *
  * This is a simple API
  *
@@ -37,7 +37,7 @@ namespace IO.Swagger.Controllers
         /// <response code="200">search results matching criteria</response>
         /// <response code="400">bad input parameter</response>
         [HttpGet]
-        [Route("/TestRK111/111_api/1.0.0/inventory")]
+        [Route("/RK_101_Transfer/111_api/1.0.0/inventory")]
         [ValidateModelState]
         [SwaggerOperation("SearchInventory")]
         [SwaggerResponse(statusCode: 200, type: typeof(List<InventoryItem>), description: "search results matching criteria")]
