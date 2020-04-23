@@ -61,7 +61,7 @@ libraryDependencies += "io.swagger" % "swagger-client" % "1.0.0"
 
 ## Documentation for API Endpoints
 
-All URIs are relative to *https://dev-virtserver.swaggerhub.com/RK_101_Transfer/api3/1.0.0*
+All URIs are relative to *https://dev-virtserver.swaggerhub.com/RK_101_Transfer/vder/1.0.0*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
