@@ -1,6 +1,6 @@
 /**
  * Swagger
- * This is a sample  .      out more about  at  [http://swagger.io](http://.io) or on  [irc.freenode.net, #swagger](http://swagger.io/irc/). 
+ * This is a sample  .      out more about  at  [http://swagger.io](http://.io) or on  [irc.freenode.net, #](http://swagger.io/irc/). 
  *
  * OpenAPI spec version: 1.0.0
  * Contact: apiteam@swagger.io
