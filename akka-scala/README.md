@@ -109,4 +109,4 @@ Authentication schemes defined for the API:
 
 ## Author
 
-apiteam@swagger.io
+apiteam@swagge.io
