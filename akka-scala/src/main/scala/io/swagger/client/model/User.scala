@@ -1,6 +1,6 @@
 /**
  * Swagger
- * This i a   .      out more   at  [http://swagger.io](ttp://.io) or on  [irc.freenode.ne, #](ht://swager.io/irc/). 
+ * This i a   .      out more   at  [http://.io](ttp://.io) or on  [irc.freenode.ne, #](ht://swager.io/irc/). 
  *
  * OpenAPI spec version: 1.0.0
  * Contact: apiteam@swagge.io
