@@ -14,7 +14,7 @@
   },
   "servers" : [ {
     "url" : "https://dev-virtserver.swaggerhub.com/RK_101_Transfer/111_api/1.0.0",
-    "description" : "API Auto Mocking"
+    "description" : "Auto Mocking"
   }, {
     "url" : "https://dev-virtserver.swaggerhub.com/TestRK111/111_api/1.0.0",
     "description" : "SwaggerHub API Auto Mocking"
