@@ -6,5 +6,5 @@ info:
 paths: {}
 # Added by API Auto Mocking Plugin
 servers:
-  - description: SwaggerHub API Auto Mocking
+  - description: Change on Repo
     url: https://dev-virtserver.swaggerhub.com/STEAM_3061/TestPULL0as3/1
