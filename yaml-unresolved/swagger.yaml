@@ -8,13 +8,3 @@ host: petstore.swagger.io
 basePath: /v2
 schemes:
 - http
-paths:
-  /pet:
-    post:
-      tags:
-      - pet
-      summary: Add a new pet to the store.
-      operationId: addPet
-      responses:
-        405:
-          description: Error
