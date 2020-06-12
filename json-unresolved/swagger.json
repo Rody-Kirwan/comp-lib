@@ -6,7 +6,7 @@
     "description" : "ddddd"
   },
   "paths" : { },
-  "host" : "dev-virtserver.swaggerhub.com",
+  "host" : "test json dev-virtserver.swaggerhub.com",
   "basePath" : "/Orgerty/testrewrtyuiop/2",
   "schemes" : [ "https" ]
 }
