@@ -1,10 +1,12 @@
 swagger: '2.0'
 info:
-  description: "String"
-  version: "1.0.1"
-  title: Swagger Petstore
-  termsOfService: http://swagger.io/terms/
-host: petstore.swagger.io
-basePath: /v2
+  version: '1.2'
+  title: wsdfgh
+  description: derftgy
+paths: {}
+# host: blahblahdev-virtserver.swaggerhub.com
+basePath: /Orgerty/TestResolved/1.2
 schemes:
-- http
+  - https
+# Added by API Auto Mocking Plugin
+host: dev-virtserver.swaggerhub.com
