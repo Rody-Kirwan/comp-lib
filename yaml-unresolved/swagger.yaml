@@ -4,7 +4,7 @@ info:
   title: wsdfgh
   description: derftgy
 paths: {}
-# host: blahblahdev-virtserver.swaggerhub.com
+# host: yamly-virtserver.swaggerhub.com
 basePath: /Orgerty/TestResolved/1.2
 schemes:
   - https
