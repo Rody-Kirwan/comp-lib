@@ -6,7 +6,7 @@
     "description" : "derftgy"
   },
   "paths" : { },
-  "host" : "dev-virtserver.swaggerhub.com",
+  "host" : "blahblahdev-virtserver.swaggerhub.com",
   "basePath" : "/Orgerty/TestResolved/1.2",
   "schemes" : [ "https" ]
 }
