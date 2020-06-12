@@ -1,12 +1,13 @@
-swagger: '2.0'
-info:
-  version: '1.2'
-  title: wsdfgh
-  description: derftgy
-paths: {}
-# host: yamly-virtserver.swaggerhub.com
-basePath: /Orgerty/TestResolved/1.2
-schemes:
-  - https
-# Added by API Auto Mocking Plugin
-host: dev-virtserver.swaggerhub.com
+|
+  swagger: '2.0'
+  info:
+    version: '1.2'
+    title: wsdfgh
+    description: derftgy
+  paths: {}
+  # host: yamly-virtserver.swaggerhub.com
+  basePath: /Orgerty/TestResolved/1.2
+  schemes:
+    - https
+  # Added by API Auto Mocking Plugin
+  host: dev-virtserver.swaggerhub.com
