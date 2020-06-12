@@ -1,12 +1,12 @@
 {
   "swagger" : "2.0",
   "info" : {
+    "description" : "ddddd",
     "version" : "2",
-    "title" : "dd",
-    "description" : "ddddd"
+    "title" : "dd"
   },
-  "paths" : { },
-  "host" : "test json dev-virtserver.swaggerhub.com",
+  "host" : "dev-virtserver.swaggerhub.com",
   "basePath" : "/Orgerty/testrewrtyuiop/2",
-  "schemes" : [ "https" ]
+  "schemes" : [ "https" ],
+  "paths" : { }
 }
