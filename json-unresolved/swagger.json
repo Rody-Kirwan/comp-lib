@@ -1,12 +1,12 @@
 {
   "swagger" : "2.0",
   "info" : {
+    "description" : "derftgy",
     "version" : "1.2",
-    "title" : "wsdfgh",
-    "description" : "derftgy"
+    "title" : "wsdfgh"
   },
-  "paths" : { },
-  "host" : "blahblahdev-virtserver.swaggerhub.com",
+  "host" : "dev-virtserver.swaggerhub.com",
   "basePath" : "/Orgerty/TestResolved/1.2",
-  "schemes" : [ "https" ]
+  "schemes" : [ "https" ],
+  "paths" : { }
 }
