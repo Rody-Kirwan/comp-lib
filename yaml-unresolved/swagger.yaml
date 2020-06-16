@@ -690,7 +690,9 @@ externalDocs:
   url: http://swagger.io
 # Added by API Auto Mocking Plugin
 host: dev-virtserver.swaggerhub.com
-basePath: /STEAM_3061/PRIV_a/1.0.0
+# basePath: /STEAM_3061/PRIV_a/1.0.0
 schemes:
  - https
  - http
+# Added by API Auto Mocking Plugin
+basePath: /STEAM_3061/Yaml_Unresolved/1.0.0
