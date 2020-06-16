@@ -369,8 +369,8 @@
           "description" : "ID of pet that needs to be fetched",
           "required" : true,
           "type" : "integer",
-          "maximum" : 10.0,
-          "minimum" : 1.0,
+          "maximum" : 10,
+          "minimum" : 1,
           "format" : "int64"
         } ],
         "responses" : {
@@ -400,7 +400,7 @@
           "description" : "ID of the order that needs to be deleted",
           "required" : true,
           "type" : "integer",
-          "minimum" : 1.0,
+          "minimum" : 1,
           "format" : "int64"
         } ],
         "responses" : {
