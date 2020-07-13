@@ -1,15 +1,17 @@
 swagger: '2.0'
 info:
+  description: Edited on Github
   version: 1.0.0
-  title: Petstore
+  title: Swagger Petstore
+  termsOfService: 'http://swagger.io/terms/'
   contact:
-    email: apiteam@.io
+    email: apiteam@swagger.io
   license:
     name: Apache 2.0
     url: 'http://www.apache.org/licenses/LICENSE-2.0.html'
 tags:
   - name: pet
-    description: about your Pets
+    description: Everything about your Pets
     externalDocs:
       description: Find out more
       url: 'http://swagger.io'
@@ -21,7 +23,62 @@ tags:
       description: Find out more about our store
       url: 'http://swagger.io'
 paths:
-  
+  /pet:
+    post:
+      tags:
+        - pet
+      summary: Add a new pet to the store
+      operationId: addPet
+      consumes:
+        - application/json
+        - application/xml
+      produces:
+        - application/json
+        - application/xml
+      parameters:
+        - in: body
+          name: body
+          description: Pet object that needs to be added to the store
+          required: true
+          schema:
+            $ref: '#/definitions/Pet'
+      responses:
+        '405':
+          description: Invalid input
+      security:
+        - petstore_auth:
+            - 'write:pets'
+            - 'read:pets'
+    put:
+      tags:
+        - pet
+      summary: Update an existing pet
+      operationId: updatePet
+      consumes:
+        - application/json
+        - application/xml
+      produces:
+        - application/json
+        - application/xml
+      parameters:
+        - in: body
+          name: body
+          description: Pet object that needs to be added to the store
+          required: true
+          schema:
+            $ref: '#/definitions/Pet'
+      responses:
+        '400':
+          description: Invalid ID supplied
+        '404':
+          description: Pet not found
+        '405':
+          description: Validation exception
+      security:
+        - petstore_auth:
+            - 'write:pets'
+            - 'read:pets'
+  /pet/findByStatus:
     get:
       tags:
         - pet
@@ -632,7 +689,7 @@ externalDocs:
   description: Find out more about Swagger
   url: 'http://swagger.io'
 host: dev-virtserver.swaggerhub.com
-basePath: /STEAM_3061/JSON_Unresolved/1.0.0
+basePath: /STEAM_3061/TestPull2/1.0.0
 schemes:
   - https
   - http
