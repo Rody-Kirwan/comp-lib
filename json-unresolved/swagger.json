@@ -808,6 +808,6 @@
     "url" : "http://swagger.io"
   },
   "host" : "dev-virtserver.swaggerhub.com",
-  "basePath" : "/Orgerty/123API/1.0.0",
+  "basePath" : "/STEAM_3061/TestPull2/1.0.0",
   "schemes" : [ "https", "http" ]
 }
