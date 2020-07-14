@@ -1,6 +1,6 @@
 swagger: '2.0'
 info:
-  description: Description
+  description: Updated for demo
   version: 1.0.0
   title: Swagger Petstore
   termsOfService: http://swagger.io/terms/
