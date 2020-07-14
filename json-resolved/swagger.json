@@ -1,10 +1,12 @@
 {
   "swagger" : "2.0",
   "info" : {
+    "description" : "Edited on Github",
     "version" : "1.0.0",
     "title" : "Swagger Petstore",
+    "termsOfService" : "http://swagger.io/terms/",
     "contact" : {
-      "email" : "apiteam@.io"
+      "email" : "apiteam@swagger.io"
     },
     "license" : {
       "name" : "Apache 2.0",
@@ -12,7 +14,7 @@
     }
   },
   "host" : "dev-virtserver.swaggerhub.com",
-  "basePath" : "/STEAM_3061/JSON_Unresolved/1.0.0",
+  "basePath" : "/STEAM_3061/TestPull2/1.0.0",
   "tags" : [ {
     "name" : "pet",
     "description" : "Everything about your Pets",
