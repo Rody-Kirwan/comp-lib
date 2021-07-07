@@ -1,0 +1,14 @@
+{
+  "openapi" : "3.0.0",
+  "info" : {
+    "title" : "test",
+    "description" : "my decription",
+    "version" : "1"
+  },
+  "servers" : [ {
+    "url" : "https://dev-virtserver.swaggerhub.com/STEAM_3061/TestPULL0as3/1",
+    "description" : "SwaggerHub API Auto Mocking"
+  } ],
+  "paths" : { },
+  "components" : { }
+}
